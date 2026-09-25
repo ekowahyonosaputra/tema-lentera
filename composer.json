@@ -1,0 +1,13 @@
+{
+    "name": "themes/lentera",
+    "type": "library",
+    "description": "Tema Lentera untuk BEOPENDES — dikembangkan dari tema resmi OpenSID Esensi (GPL-3.0-or-later). Kompatibel dengan OpenSID v2603+.",
+    "homepage": "https://desakami.my.id",
+    "version": "2603.1.0",
+    "license": "GPL-3.0-or-later",
+    "keywords": ["Themes", "OpenSID", "BEOPENDES", "Lentera"],
+    "authors": [
+        {"name": "Tim OpenDesa", "email": "info@opendesa.id"},
+        {"name": "Tim BEOPENDES / DesakaMi", "homepage": "https://desakami.my.id"}
+    ]
+}

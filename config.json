@@ -1,0 +1,98 @@
+[
+    {
+        "judul": "Kode Aktivasi Tema Lentera",
+        "key": "kode_aktivasi",
+        "value": "",
+        "type": "input-text",
+        "keterangan": "Kode aktivasi dari desakami.my.id. Nomor Seri ditampilkan di halaman aktivasi saat kode kosong/tidak valid.",
+        "options": null,
+        "attributes": {"placeholder": "LNT-XXXX-XXXX-XXXX-XXXX"},
+        "readonly": false,
+        "link": false,
+        "group": "Lisensi"
+    },
+    {
+        "judul": "Warna Tema",
+        "key": "warna_tema",
+        "value": "hijau",
+        "type": "select",
+        "keterangan": "Warna utama yang digunakan pada header, navigasi, dan aksen seluruh halaman website.",
+        "options": {
+            "hijau": "Hijau (default)",
+            "biru": "Biru",
+            "merah": "Merah",
+            "ungu": "Ungu",
+            "cokelat": "Cokelat tanah"
+        },
+        "attributes": {},
+        "readonly": false,
+        "link": false,
+        "group": "Tampilan"
+    },
+    {
+        "judul": "Tampilkan Tombol Chat WA",
+        "key": "tampilkan_wa",
+        "value": "1",
+        "type": "select",
+        "keterangan": "Tombol WhatsApp terapung di pojok kanan bawah. Nomor WA diambil otomatis dari data desa.",
+        "options": {
+            "1": "Ya - Tampilkan",
+            "0": "Tidak - Sembunyikan"
+        },
+        "attributes": {},
+        "readonly": false,
+        "link": false,
+        "group": "Tampilan"
+    },
+    {
+        "judul": "Logo Berputar pada Header",
+        "key": "logo_berputar",
+        "value": "0",
+        "type": "select",
+        "keterangan": "Logo desa berputar perlahan pada hero header di halaman beranda.",
+        "options": {
+            "0": "Tidak - Diam",
+            "1": "Ya - Berputar"
+        },
+        "attributes": {},
+        "readonly": false,
+        "link": false,
+        "group": "Tampilan"
+    },
+    {
+        "judul": "Motto / Slogan Desa",
+        "key": "motto_nagari",
+        "value": "",
+        "type": "input-text",
+        "keterangan": "Tampil di bawah nama desa pada hero header. Kosongkan untuk menyembunyikan.",
+        "options": null,
+        "attributes": {"placeholder": "Contoh: NAGARI CERDAS BERDATA"},
+        "readonly": false,
+        "link": false,
+        "group": "Header"
+    },
+    {
+        "judul": "Judul Acara Hitung Mundur",
+        "key": "event_judul",
+        "value": "",
+        "type": "input-text",
+        "keterangan": "Nama acara yang akan dihitung mundur di header. Kosongkan untuk menyembunyikan kotak hitung mundur.",
+        "options": null,
+        "attributes": {"placeholder": "Contoh: Hari Kemerdekaan RI"},
+        "readonly": false,
+        "link": false,
+        "group": "Header"
+    },
+    {
+        "judul": "Tanggal Target Hitung Mundur",
+        "key": "event_tanggal",
+        "value": "",
+        "type": "input-text",
+        "keterangan": "Format: YYYY-MM-DD HH:MM:SS",
+        "options": null,
+        "attributes": {"placeholder": "2026-08-17 00:00:00"},
+        "readonly": false,
+        "link": false,
+        "group": "Header"
+    }
+]
